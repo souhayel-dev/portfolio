@@ -1,0 +1,50 @@
+.main-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.my-photo img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10%;
+  border: 8px solid #fff;
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
+}
+
+.main-text {
+  font-size: larger;
+  max-width: 500px;
+}
+
+.button {
+  margin-top: 25px;
+  justify-content: center;
+  background-color: white;
+  border: 2px solid gray;
+
+  padding: 0.8em 1em;
+  width: fit-content;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+.button a {
+  text-decoration: none;
+  color: #1f2937;
+}
